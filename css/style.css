@@ -51,6 +51,48 @@
 
 /* body */
 
+    /* contact */
+    
+.contact{
+ margin: 100px 0;
+ position: relative;
+}
+.contact h1{
+ padding: 10px 1px;
+ color: #503D2E; 
+}
+
+.contact h2{
+ padding: 4px 1px;
+ color: #503D2E; 
+}
+
+.contact p{
+ padding: 4px 1px;
+ color: #503D2E;
+ font-size: 14pt;
+}
+
+.contact .fields{
+ max-width: 600px;
+}
+.contact .fields .btn-secondary{
+ background:  #d54b1a;
+ color: #ffffff;
+ border: 0;
+}
+
+.contact .btn-secondary {
+     font-weight: 500;
+ }
+
+.contact .fields .form-control::placeholder{
+ color: #503D2E;
+ font-size: 16px;
+}
+
+     /* contact */
+
 /* body */
 
 /* footer */

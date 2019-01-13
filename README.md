@@ -90,6 +90,7 @@ http://ianlunn.github.io/Hover/
 Font awesome "bars" icon used instead of bootstrap standrd toggler: 
 https://fontawesome.com/icons/bars?style=solid
 
+Color picker: https://htmlcolorcodes.com/color-picker/
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
