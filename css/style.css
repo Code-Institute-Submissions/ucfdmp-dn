@@ -139,6 +139,36 @@
 
 /* book event */
 
+/* band */
+
+.band {
+    margin: 64px 0;
+    padding: 16px;
+    position: relative;
+}
+
+.band img {
+    height: auto;
+    width: auto;
+}
+
+.band .info {
+    padding: 32px;
+    border-left: 2px solid #058789;
+}
+
+.band .info h2 {
+    color: #058789;
+}
+
+.band .info p {
+    line-height: 2;
+    color: #503D2E;
+}
+
+
+/* band */
+
 /* body */
 
 /* footer */

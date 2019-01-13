@@ -99,7 +99,8 @@ Date picker for Bootstrap 4+: https://gijgo.com/datepicker/example/bootstrap-4
 - 
 
 ### Media
-- The photos used in this site were obtained from
+- The photos used in this site were obtained from:
+- https://www.monkees.com/
 
 ### Acknowledgements
 
