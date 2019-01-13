@@ -20,13 +20,13 @@
 .nav-link {
     color: #f0ecc9;
     cursor: pointer;
-    margin-right: 32px;    
+    margin-right: 32px;
 }
 
 .nav-link:hover {
     background: #f0ecc9;
     color: #d54b1a;
-    
+
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -51,47 +51,93 @@
 
 /* body */
 
-    /* contact */
-    
-.contact{
- margin: 100px 0;
- position: relative;
-}
-.contact h1{
- padding: 10px 1px;
- color: #503D2E; 
+/* contact */
+
+.contact {
+    margin: 100px 0;
+    position: relative;
 }
 
-.contact h2{
- padding: 4px 1px;
- color: #503D2E; 
+.contact h1 {
+    padding: 10px 1px;
+    color: #503D2E;
 }
 
-.contact p{
- padding: 4px 1px;
- color: #503D2E;
- font-size: 14pt;
+.contact h2 {
+    padding: 4px 1px;
+    color: #503D2E;
 }
 
-.contact .fields{
- max-width: 600px;
+.contact p {
+    padding: 4px 1px;
+    color: #503D2E;
+    font-size: 14pt;
 }
-.contact .fields .btn-secondary{
- background:  #d54b1a;
- color: #ffffff;
- border: 0;
+
+.contact .fields {
+    max-width: 600px;
+}
+
+.contact .fields .btn-secondary {
+    background: #d54b1a;
+    color: #ffffff;
+    border: 0;
 }
 
 .contact .btn-secondary {
-     font-weight: 500;
- }
-
-.contact .fields .form-control::placeholder{
- color: #503D2E;
- font-size: 16px;
+    font-weight: 500;
 }
 
-     /* contact */
+.contact .fields .form-control::placeholder {
+    color: #503D2E;
+    font-size: 16px;
+}
+
+/* contact */
+
+/* book event */
+
+.event-top {
+    margin-top: 100px;
+}
+
+.contact-event {
+    margin: 25px 0;
+    position: relative;
+}
+
+.contact-event h1 {
+    padding: 10px 1px;
+    color: #503D2E;
+}
+
+.contact-event h2 {
+    padding: 4px 1px;
+    color: #503D2E;
+}
+
+.contact-event p {
+    padding: 4px 1px;
+    color: #503D2E;
+    font-size: 14pt;
+}
+
+.contact-event .fields {
+    max-width: 600px;
+}
+
+.contact-event .fields .btn-secondary {
+    background: #d54b1a;
+    color: #fff;
+    border: 0;
+}
+
+.contact-event .fields .form-control::placeholder {
+    color: #503D2E;
+    font-size: 16px;
+}
+
+/* book event */
 
 /* body */
 

@@ -92,6 +92,8 @@ https://fontawesome.com/icons/bars?style=solid
 
 Color picker: https://htmlcolorcodes.com/color-picker/
 
+Date picker for Bootstrap 4+: https://gijgo.com/datepicker/example/bootstrap-4
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - 
