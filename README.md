@@ -54,6 +54,10 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+### Bugs / Issues
+
+Font awesome "bars" icon is used instead of bootstrap standrd toggler. Standrd toggler icon appers only if navbar *.bg-* utility is used. Using *.bg-* overrides bg color defined in css. It was decided to use fontawesome icon instead.
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -68,11 +72,31 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+Social link icon style taken from - https://mdbootstrap.com/docs/jquery/components/buttons-social/
+
+BootstrapCDN
+https://www.bootstrapcdn.com/fontawesome/
+https://www.bootstrapcdn.com/
+
+
+Examples used for menu toggler:
+https://www.w3schools.com/howto/tryhow_website_bootstrap4.htm
+https://getbootstrap.com/docs/4.1/components/navbar/
+
+Hover CSS for navigation hover effects:
+https://github.com/IanLunn/Hover
+http://ianlunn.github.io/Hover/
+
+Font awesome "bars" icon used instead of bootstrap standrd toggler: 
+https://fontawesome.com/icons/bars?style=solid
+
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from
 
 ### Acknowledgements
 
