@@ -1,6 +1,6 @@
 # User Centric Frontend Development Milestone Project  
 
-This is a frontend-only website built for a 1960's rockband The Monkees.
+This is a frontend-only website built for User Centric Frontend Development Milestone Project themed to **1960's rockband The Monkees**.
  
 ## UX
  
@@ -128,6 +128,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - [Color picker](https://htmlcolorcodes.com/color-picker/)
 
 - [Date picker](https://gijgo.com/datepicker/example/bootstrap-4) for Bootstrap 4
+
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### Content
 
