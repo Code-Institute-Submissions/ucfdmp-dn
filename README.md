@@ -11,7 +11,19 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+*The Monkees - project* PDF with sketches and wieframes included in dev folder.
+
 ## Features
+
+**News page** provides option to show news using bootstrap cards.
+
+**Listen page** provides option to view embeded youtube videos and listen to spotify albums. Both options redirect to reevant official pages.
+
+**Band page** provides some description of band itself and it's members.
+
+**Book event page** provides option to send request to book event with short description and preferred date.
+
+**Contact page** provides option to send any question using simple form.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
@@ -23,40 +35,66 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-- Another feature idea
-
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML](https://w3c.github.io/html/)
+    - The project uses **HTML** as core language.
+
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+    - The project uses **CSS** to describe colors, layout, and fonts.
+
+- [JavaScript](https://www.javascript.com/)
+    - The project uses **JQuery** as part of **bootstrap** and **gijgo**.
+
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** to build responsive web site and utilise it's components.
+
+- [gijgo](https://gijgo.com/)
+    - The project uses **gijgo**. Datepicker by Gijgo.com is a plug-in for the jQuery Javascript library. It is a very fast and extandable tool, and will add advanced interaction controls to any date field. This plugin allows you to create datepickers using bootstrap or material design styles. Free open source tool distributed under MIT License.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+HTML validated - https://validator.w3.org/
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+CSS validated - https://jigsaw.w3.org/css-validator/
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+1. Tested on various browsers and devices:
+    1. Chrome, Firefox, Edge on windows PC and Tablet;
+        1. general resiszing and using developer tools.
+        2. tablet rotation
+        3. screen resolution from 2560x1440 down to 1280x800
+    2. Chrome, Firefox, Safari on MAC
+        1. general resiszing and using developer tools
+    3. Iphone SE, 6S Plus
+        1. Chrome, Safari
+    4. Galaxy S3
+        1. Built-in android browser, Chrome, Firefox
+2. https://developers.google.com/speed/pagespeed/insights/
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+3. All links where checked manually and using checker tool https://www.deadlinkchecker.com/website-dead-link-checker.asp
+    > 100% scanned - 36/36 URLs checked, 36 OK
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+4. Contact form:
+    1. /contact.html
+    2. Empty form submission highlights that Name field is required
+        1. required warning appears for any field that was left empty on time of submission - Name, email, message
+    3. Submitting form with incorrect email format will produce warning message **please include an @ in the email address**
+    4. Submitting form with all correct fields produces no error, as there is no post method implemented, page simply refreshes to empty form.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+5. Book event form:
+    1. /book-event.html
+    2. Empty form submission highlights that Name field is required
+        1. required warning appears for any field that was left empty on time of submission - Name, email, phonr number, message, date pick
+    3. Submitting form with incorrect email format will produce warning message **please include an @ in the email address**
+    4. Submitting form with all correct fields produces no error, as there is no post method implemented, page simply refreshes to empty form.
 
 ### Bugs / Issues
 
-Font awesome "bars" icon is used instead of bootstrap standrd toggler. Standrd toggler icon appers only if navbar *.bg-* utility is used. Using *.bg-* overrides bg color defined in css. It was decided to use fontawesome icon instead.
+Font awesome "bars" icon is used instead of bootstrap standard toggler. Standard toggler icon appers only if navbar **.bg-** utility is used. Using **.bg-** overrides bg color defined in css. It was decided to use fontawesome icon instead.
 
 ## Deployment
 
@@ -72,47 +110,50 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
-Social link icon style taken from - https://mdbootstrap.com/docs/jquery/components/buttons-social/
+- Social link icon style taken from - [mdbootstrap](https://mdbootstrap.com/docs/jquery/components/buttons-social/)
 
-BootstrapCDN
-https://www.bootstrapcdn.com/fontawesome/
-https://www.bootstrapcdn.com/
+- [BootstrapCDN](https://www.bootstrapcdn.com/) and [BootstrapCDN](https://www.bootstrapcdn.com/fontawesome/) for fontawesome
+
+- Examples used for menu toggler:
+    - How TO - [Make a Website with Bootstrap 4](https://www.w3schools.com/howto/howto_website_bootstrap4.asp)
+    - Bootstrap official [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/) page
+
+- [Hover CSS](https://github.com/IanLunn/Hover) for navigation hover effects:
+    - [Preview](http://ianlunn.github.io/Hover/)
 
 
-Examples used for menu toggler:
-https://www.w3schools.com/howto/tryhow_website_bootstrap4.htm
-https://getbootstrap.com/docs/4.1/components/navbar/
+- Font awesome [bars](https://fontawesome.com/icons/bars?style=solid) icon used instead of bootstrap standrd toggler: 
 
-Hover CSS for navigation hover effects:
-https://github.com/IanLunn/Hover
-http://ianlunn.github.io/Hover/
+- [Color picker](https://htmlcolorcodes.com/color-picker/)
 
-Font awesome "bars" icon used instead of bootstrap standrd toggler: 
-https://fontawesome.com/icons/bars?style=solid
-
-Color picker: https://htmlcolorcodes.com/color-picker/
-
-Date picker for Bootstrap 4+: https://gijgo.com/datepicker/example/bootstrap-4
+- [Date picker](https://gijgo.com/datepicker/example/bootstrap-4) for Bootstrap 4
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-- The text for sections Band and xxx xxx copied from 
-- https://www.biography.com/people/groups/the-monkees
-- https://www.biography.com/people/peter-tork-20758183
-- https://www.biography.com/people/michael-nesmith-20757957
-- https://www.biography.com/people/micky-dolenz-16730294
-- https://www.biography.com/people/davy-jones-377858
+
+- The text for Band page copied from:
+    - [The Monkees biography](https://www.biography.com/people/groups/the-monkees)
+    - [Peter Tork Biography](https://www.biography.com/people/peter-tork-20758183)
+    - [Michael Nesmith Biography](https://www.biography.com/people/michael-nesmith-20757957)
+    - [Micky Dolenz biography](https://www.biography.com/people/micky-dolenz-16730294)
+    - [Davy Jones biography](https://www.biography.com/people/davy-jones-377858)
+ 
+- The text for News page copied from [Official Monkeys web page](https://www.monkees.com/news)
 
 
 
 ### Media
 - The photos used in this site were obtained from:
-- https://www.monkees.com/
-- https://www.biography.com/people/peter-tork-20758183
-- https://www.biography.com/people/michael-nesmith-20757957
-- https://www.biography.com/people/micky-dolenz-16730294
-- https://www.biography.com/people/davy-jones-377858
+    - [The Monkees](https://www.monkees.com/) official website
+    - [Peter Tork Biography](https://www.biography.com/people/peter-tork-20758183)
+    - [Michael Nesmith Biography](https://www.biography.com/people/michael-nesmith-20757957)
+    - [Micky Dolenz biography](https://www.biography.com/people/micky-dolenz-16730294)
+    - [Davy Jones biography](https://www.biography.com/people/davy-jones-377858)
+- The Monkees [Youtube](https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA) channel used to embed videos
+- The Monkees [Spotify](https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck) used to embed albums
+  
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from:
+    - https://getbootstrap.com/docs/4.2/examples/album/
+    - https://getbootstrap.com/docs/4.2/examples/pricing/

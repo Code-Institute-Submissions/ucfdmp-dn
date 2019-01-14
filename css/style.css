@@ -84,7 +84,7 @@ body {
     margin-bottom: 100px;
 }
 
-/* contact */
+    /* contact */
 
 .contact {
     margin: 100px 0;
@@ -126,9 +126,9 @@ body {
     font-size: 16px;
 }
 
-/* contact */
+    /* contact */
 
-/* book event */
+    /* book event */
 
 .event-top {
     margin-top: 100px;
@@ -170,9 +170,9 @@ body {
     font-size: 16px;
 }
 
-/* book event */
+    /* book event */
 
-/* band */
+    /* band */
 
 .band {
     margin: 64px 0;
@@ -200,9 +200,9 @@ body {
 }
 
 
-/* band */
+    /* band */
 
-/* members */
+    /* members */
 
 .img-member {
     height: auto;
@@ -210,9 +210,9 @@ body {
     border-radius: 50%;
 }
 
-/* members */
+    /* members */
 
-/* news */
+    /* news */
 
 .news {
     margin: 50px 0;
@@ -251,9 +251,9 @@ body {
 }
 
 
-/* news */
+    /* news */
 
-/* listen */
+    /* listen */
 
 .listen {
     margin: 100px 0;
@@ -269,7 +269,7 @@ iframe {
     box-shadow: 0 0 20px #ccc;
 }
 
-/* listen */
+    /* listen */
 
 /* body */
 
