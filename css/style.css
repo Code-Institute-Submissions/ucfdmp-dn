@@ -19,11 +19,13 @@ textarea {
 }
 
 /* vertical scroll */
+
 /* added to avoid navbar movement on pages without scroll bar */
 
 html {
     overflow-y: scroll;
 }
+
 /* vertical scroll */
 
 /* general */
@@ -250,6 +252,24 @@ body {
 
 
 /* news */
+
+/* listen */
+
+.listen {
+    margin: 100px 0;
+}
+
+
+
+iframe {
+
+    margin-right: 14px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+/* listen */
 
 /* body */
 
