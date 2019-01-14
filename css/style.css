@@ -18,6 +18,13 @@ textarea {
     min-height: 200px;
 }
 
+/* vertical scroll */
+/* added to avoid navbar movement on pages without scroll bar */
+
+html {
+    overflow-y: scroll;
+}
+/* vertical scroll */
 
 /* general */
 
@@ -72,8 +79,8 @@ textarea {
 
 body {
     background-color: #faf8eb;
+    margin-bottom: 100px;
 }
-
 
 /* contact */
 
@@ -236,6 +243,11 @@ body {
 .news .card-body {
     padding: 16px;
 }
+
+.card {
+    background-color: #FDFCF7;
+}
+
 
 /* news */
 
