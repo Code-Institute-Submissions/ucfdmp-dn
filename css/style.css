@@ -1,5 +1,24 @@
 /* general */
 
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+textarea {
+    min-height: 200px;
+}
+
+
 /* general */
 
 /* navigation */
@@ -50,6 +69,11 @@
 /* navigation */
 
 /* body */
+
+body {
+    background-color: #faf8eb;
+}
+
 
 /* contact */
 
@@ -178,6 +202,42 @@
 }
 
 /* members */
+
+/* news */
+
+.news {
+    margin: 50px 0;
+    position: relative;
+}
+
+.news h1 {
+    color: #d54b1a;
+    margin: 32px;
+}
+
+.news p {
+    color: #503D2E;
+}
+
+.news .card {
+    box-shadow: 0 0 20px #ccc;
+    margin-top: 10px;
+}
+
+.news .card img {
+    width: 100%;
+}
+
+.news .card-title {
+    color: #d54b1a;
+
+}
+
+.news .card-body {
+    padding: 16px;
+}
+
+/* news */
 
 /* body */
 
