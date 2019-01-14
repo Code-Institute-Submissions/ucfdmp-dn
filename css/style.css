@@ -169,6 +169,16 @@
 
 /* band */
 
+/* members */
+
+.img-member {
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* members */
+
 /* body */
 
 /* footer */

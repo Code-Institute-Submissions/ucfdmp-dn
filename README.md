@@ -96,11 +96,22 @@ Date picker for Bootstrap 4+: https://gijgo.com/datepicker/example/bootstrap-4
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-- 
+- The text for sections Band and xxx xxx copied from 
+- https://www.biography.com/people/groups/the-monkees
+- https://www.biography.com/people/peter-tork-20758183
+- https://www.biography.com/people/michael-nesmith-20757957
+- https://www.biography.com/people/micky-dolenz-16730294
+- https://www.biography.com/people/davy-jones-377858
+
+
 
 ### Media
 - The photos used in this site were obtained from:
 - https://www.monkees.com/
+- https://www.biography.com/people/peter-tork-20758183
+- https://www.biography.com/people/michael-nesmith-20757957
+- https://www.biography.com/people/micky-dolenz-16730294
+- https://www.biography.com/people/davy-jones-377858
 
 ### Acknowledgements
 
