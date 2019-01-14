@@ -11,19 +11,21 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-*The Monkees - project* PDF with sketches and wieframes included in dev folder.
+
+- The Monkees - project [PDF](../dev/the_monkees_project.pdf) with sketches and wieframes included in dev folder.
+    - or locate manually in folder ../dev/the_monkees_project.pdf
 
 ## Features
 
-**News page** provides option to show news using bootstrap cards.
+- **News page** provides option to show news using bootstrap cards.
 
-**Listen page** provides option to view embeded youtube videos and listen to spotify albums. Both options redirect to reevant official pages.
+- **Listen page** provides option to view embeded youtube videos and listen to spotify albums. Both options redirect to reevant official pages.
 
-**Band page** provides some description of band itself and it's members.
+- **Band page** provides some description of band itself and it's members.
 
-**Book event page** provides option to send request to book event with short description and preferred date.
+- **Book event page** provides option to send request to book event with short description and preferred date.
 
-**Contact page** provides option to send any question using simple form.
+- **Contact page** provides option to send any question using simple form.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
@@ -57,9 +59,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-HTML validated - https://validator.w3.org/
+- HTML validated - [Markup Validation Service](https://validator.w3.org/)
 
-CSS validated - https://jigsaw.w3.org/css-validator/
+- CSS validated - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 1. Tested on various browsers and devices:
     1. Chrome, Firefox, Edge on windows PC and Tablet;
@@ -72,20 +74,19 @@ CSS validated - https://jigsaw.w3.org/css-validator/
         1. Chrome, Safari
     4. Galaxy S3
         1. Built-in android browser, Chrome, Firefox
-2. https://developers.google.com/speed/pagespeed/insights/
 
-3. All links where checked manually and using checker tool https://www.deadlinkchecker.com/website-dead-link-checker.asp
+2. All links where checked manually and using [checker tool](https://www.deadlinkchecker.com/website-dead-link-checker.asp)
     > 100% scanned - 36/36 URLs checked, 36 OK
 
 
-4. Contact form:
+3. Contact form:
     1. /contact.html
     2. Empty form submission highlights that Name field is required
         1. required warning appears for any field that was left empty on time of submission - Name, email, message
     3. Submitting form with incorrect email format will produce warning message **please include an @ in the email address**
     4. Submitting form with all correct fields produces no error, as there is no post method implemented, page simply refreshes to empty form.
 
-5. Book event form:
+4. Book event form:
     1. /book-event.html
     2. Empty form submission highlights that Name field is required
         1. required warning appears for any field that was left empty on time of submission - Name, email, phonr number, message, date pick
