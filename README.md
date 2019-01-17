@@ -12,7 +12,7 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 
-- The Monkees - project [PDF](../dev/the_monkees_project.pdf) with sketches and wieframes included in dev folder.
+- The Monkees - project [PDF](https://github.com/dmtry/ucfdmp-dn/blob/master/dev/the_monkees_project.pdf) with sketches and wieframes included in dev folder.
     - or locate manually in folder ../dev/the_monkees_project.pdf
 
 ## Features
@@ -98,6 +98,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
 Font awesome "bars" icon is used instead of bootstrap standard toggler. Standard toggler icon appers only if navbar **.bg-** utility is used. Using **.bg-** overrides bg color defined in css. It was decided to use fontawesome icon instead.
 
 ## Deployment
+
+Project is deployed on [github pages](https://dmtry.github.io/ucfdmp-dn/).
+
+No additional setup is needed to run project locally. 
+- Download repositary.
+- Open index.html
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
