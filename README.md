@@ -6,13 +6,15 @@ This is a frontend-only website built for User Centric Frontend Development Mile
 
 - The Monkees - project [PDF](https://github.com/dmtry/ucfdmp-dn/blob/master/dev/the_monkees_project.pdf) with sketches and wieframes included in dev folder.
     - or locate manually in folder ../dev/the_monkees_project.pdf
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As a band fan, I want to find online presence of band so I can:
+    - check news;
+    - locate social pages;
+    - watch / listen songs or other band materials;
+- As a band fan / event organiser, I want to see event booking form, so I can book/request event on particular date.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- As band owner, I want to post news, new songs and videos, to keep our fans updated and potentially attract new ones.
+- As band owner, I want to have event booking page, so our fans or event organiser can book/request event on particular date.
 
 ## Features
 
